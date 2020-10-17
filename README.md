@@ -1,5 +1,7 @@
 ## .dotfiles
 
+i3-gaps on Ubuntu
+
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
 To use make sure you have GNU Stow:
