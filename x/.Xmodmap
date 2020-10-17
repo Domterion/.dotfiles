@@ -1,0 +1,4 @@
+keycode  62 = Up
+keycode 105 = Right 
+keycode 108 = Left 
+keycode 135 = Down
