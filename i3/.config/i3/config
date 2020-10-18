@@ -149,11 +149,13 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 
 # idk what this is but yes
-for_window [class=.*] border pixel 0
+for_window [class=.*] border pixel 2
 
 smart_borders on
 gaps inner 10
-gaps outer 1
+gaps outer 0
+
+
 
 # programs to workspace
 assign [class="discord"] $ws4
@@ -176,7 +178,7 @@ workspace $ws4 output $display2
 
 
 # styling 
-set $bg-color            #2f343f  
+set $bg-color            #F85322
 set $inactive-bg-color   #2f343f
 set $inactive-text-color #67647d
 set $text-color          #f3f4f5 
