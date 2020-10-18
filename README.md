@@ -2,6 +2,8 @@
 
 i3-gaps on Ubuntu
 
+![desktop](./screenshot.png)
+
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
 To use make sure you have GNU Stow:
