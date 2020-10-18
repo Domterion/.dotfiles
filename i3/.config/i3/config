@@ -155,7 +155,7 @@ bindsym $mod+Shift+6 move container to workspace $ws6
 for_window [class=.*] border pixel 1
 
 smart_borders on
-gaps inner 10
+gaps inner 20
 gaps outer 0
 
 # programs to workspace
