@@ -114,7 +114,7 @@ mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
-        bindsym odiaeresis resize grow width 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -152,10 +152,10 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 
 # idk what this is but yes
-for_window [class=.*] border pixel 1
+for_window [class=.*] border pixel 0
 
 smart_borders on
-gaps inner 20
+gaps inner 10
 gaps outer 0
 
 # programs to workspace
@@ -176,7 +176,6 @@ workspace $ws5 output $display1
 # bind to second monitor
 workspace $ws3 output $display2
 workspace $ws4 output $display2
-
 
 # styling 
 set $bg-color            #F85322
@@ -210,16 +209,11 @@ hide_edge_borders both
 
 
 # autostart
-exec_always --no-startup-id compton 
-
+exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off
-
 exec_always --no-startup-id feh --bg-fill /home/dominic/backgrounds/paint.jpg
-
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id discord 
-
 exec --no-startup-id firefox 
-
 exec --no-startup-id code 
