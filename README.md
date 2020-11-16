@@ -29,6 +29,7 @@ $ stow polybar (or i3, x, zsh, compton)
 ### **Details**
 
 **Wallpaper**
+
 Wallpaper used is called "background.png", the theme is based around this. If youre going to use it, make sure the mode is tiling.
 
 **Fonts**:
