@@ -10,6 +10,8 @@ let g:airline_theme='minimalist'
 
 set number
 
+set scrolloff=3
+
 set tabstop=4
 set shiftwidth=4
 set expandtab

@@ -32,8 +32,20 @@ $ stow polybar (or i3, x, zsh, compton, nvim)
 
 Wallpaper used is called "background.png", the theme is based around this. If youre going to use it, make sure the mode is tiling.
 
-**Fonts**:
-* [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) 
-    * used for polybar icons and i3bar if used
-* [System San Francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)
-    * i3 font and polybar
+**All the things**:
+
+**[compton](https://github.com/chjj/compton)** - compositor 
+
+**[i3-gaps](https://github.com/Airblader/i3)** - tiling WM
+
+**[neovim](https://github.com/neovim/neovim)** - text editor
+
+**[polybar](https://github.com/polybar/polybar)** - status bar to replace i3bar
+
+**[zsh](https://github.com/zsh-users/zsh)** - shell of choice
+
+**Fonts**
+
+**[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons and i3bar if used
+
+**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font and polybar
