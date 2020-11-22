@@ -1,0 +1,10 @@
+configuration {
+    lines: 12;
+    bw: 1;
+    font: "System San Francisco Display 10";
+    show-icons: true;
+    display-window: "Window";
+    display-drun: "run";
+    terminal: "zsh";
+    theme: "~/.config/rofi/themes/asterisk.rasi";
+}
