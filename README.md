@@ -42,10 +42,12 @@ Wallpaper used is called "background.png", the theme is based around this. If yo
 
 **[polybar](https://github.com/polybar/polybar)** - status bar to replace i3bar
 
+**[rofi](https://github.com/davatorium/rofi)** - dmenu replacement
+
 **[zsh](https://github.com/zsh-users/zsh)** - shell of choice
 
 **Fonts**
 
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons and i3bar if used
 
-**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font and polybar
+**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font, rofi and polybar
