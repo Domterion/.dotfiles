@@ -6,6 +6,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-crystal/vim-crystal'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins'}
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
