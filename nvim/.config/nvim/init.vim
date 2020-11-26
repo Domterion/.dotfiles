@@ -7,6 +7,8 @@ Plug 'vim-crystal/vim-crystal'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins'}
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'cakebaker/scss-syntax.vim'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
