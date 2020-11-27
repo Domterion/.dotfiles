@@ -2,7 +2,7 @@
 
 i3-gaps on Ubuntu
 
-![desktop](./screenshot.png)
+![desktop](./screenshot.jpeg)
 
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
@@ -30,7 +30,7 @@ $ stow polybar (or i3, x, zsh, compton, nvim, rofi)
 
 **Wallpaper**
 
-Wallpaper used is called "background.png", the theme is based around this. If youre going to use it, make sure the mode is tiling.
+Wallpaper used is called "background.jpeg", the theme is based around this. If youre going to use it, make sure the mode is tiling.
 
 **All the things**:
 

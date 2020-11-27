@@ -152,11 +152,15 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 
 # idk what this is but yes
-for_window [class=.*] border pixel 2
+for_window [class=.*] border pixel 0
 
 smart_borders on
 gaps inner 35
 gaps outer 30
+#gaps top 20 
+
+smart_borders no_gaps
+border_radius 2
 
 # programs to workspace
 assign [class="discord"] $ws4
@@ -211,13 +215,14 @@ hide_edge_borders both
 
 
 # autostart
+exec --no-startup-id ~/.config/i3/alternating_layouts.py
+
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off
-exec_always --no-startup-id feh --bg-tile /home/dominic/backgrounds/asterisk.png
-# exec_always --no-startup-id feh --bg-fill /home/dominic/backgrounds/paint.jpg
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id feh --bg-fill ~/backgrounds/background.jpeg
+# exec_always --no-startup-id feh --bg-fill ~/backgrounds/paint.jpg
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 exec --no-startup-id discord 
 exec --no-startup-id firefox
 exec --no-startup-id code
-exec --no-startup-id ~/.config/i3/alternating_layouts.py

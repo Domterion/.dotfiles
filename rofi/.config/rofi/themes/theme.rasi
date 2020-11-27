@@ -1,11 +1,10 @@
 * {
-  text-color: #f3f4f5;
+  text-color: #e2e5ec;
   background-color: transparent;
 }
 
 window {
-  transparency: "real";
-  background-color: #252422cc;
+  background-color: #495056;
 }
 
 
@@ -20,7 +19,7 @@ prompt {
 }
 
 textbox {
-  background-color: #252422;
+  background-color: #02131b;
   border: 0 0 1px 0;
   padding: 3px 6px;
 }
@@ -41,5 +40,5 @@ element {
 }
 
 element selected {
-  background-color: #dcbd8b;
+  background-color: #02131b;
 }
