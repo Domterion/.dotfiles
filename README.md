@@ -51,3 +51,7 @@ Wallpaper used is called "background.jpeg", the theme is based around this. If y
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons and i3bar if used
 
 **[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font, rofi and polybar
+
+**Theme**
+
+**[oomox-mountain](https://github.com/Domterion/oomox-mountain)** - a theme made using [oomox](https://github.com/themix-project/oomox) for this theme
