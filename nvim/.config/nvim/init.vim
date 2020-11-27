@@ -14,6 +14,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_theme='minimalist'
 let g:crystal_auto_format = 1
+let g:prettier#autoformat = 1
 
 set number
 

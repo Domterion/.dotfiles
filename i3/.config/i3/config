@@ -156,7 +156,7 @@ for_window [class=.*] border pixel 2
 
 smart_borders on
 gaps inner 35
-gaps outer 15
+gaps outer 30
 
 # programs to workspace
 assign [class="discord"] $ws4
@@ -220,4 +220,4 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id discord 
 exec --no-startup-id firefox
 exec --no-startup-id code
-exec --no-startup-id ~/i3-alternating-layout/alternating_layouts.py
+exec --no-startup-id ~/.config/i3/alternating_layouts.py
