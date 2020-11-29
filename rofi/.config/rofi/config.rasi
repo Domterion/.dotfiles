@@ -6,5 +6,5 @@ configuration {
     display-window: "Window";
     display-drun: "run";
     terminal: "zsh";
-    theme: "~/.config/rofi/themes/theme.rasi";
+    theme: "~/.config/rofi/themes/rofi.rasi";
 }
