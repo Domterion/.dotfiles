@@ -107,7 +107,7 @@ bindsym $mod+Shift+x exec i3lock -c 2f343f
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
+        # Pressing left will shrink the window�s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
@@ -225,4 +225,4 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 exec --no-startup-id discord 
 exec --no-startup-id firefox
-exec --no-startup-id code
+exec --no-startup-id gnome-terminal
