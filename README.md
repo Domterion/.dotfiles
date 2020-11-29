@@ -52,6 +52,4 @@ Wallpaper used is called "background.jpeg", the theme is based around this. If y
 
 **[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font, rofi and polybar
 
-**Theme**
 
-**[oomox-mountain](https://github.com/Domterion/oomox-mountain)** - a theme made using [oomox](https://github.com/themix-project/oomox) for this theme
