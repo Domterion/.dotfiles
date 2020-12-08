@@ -2,7 +2,7 @@
 
 i3-gaps on Ubuntu
 
-![desktop](./screenshot.jpeg)
+![desktop](./screenshot.png)
 
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
@@ -30,7 +30,7 @@ $ stow polybar (or i3, x, zsh, compton, nvim, rofi)
 
 **Wallpaper**
 
-Wallpaper used is called "background.jpeg", the theme is based around this. If youre going to use it, make sure the mode is tiling.
+Wallpaper used is called "background.jpg", the theme is based around this. If youre going to use it, make sure the mode is tiling.
 
 **All the things**:
 
@@ -50,6 +50,8 @@ Wallpaper used is called "background.jpeg", the theme is based around this. If y
 
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons and i3bar if used
 
-**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font, rofi and polybar
+**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font and rofi
+
+**[JetBrainsMono Regular](https://www.jetbrains.com/lp/mono/)** - polybar
 
 
