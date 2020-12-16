@@ -30,7 +30,7 @@ $ stow polybar (or i3, x, zsh, compton, nvim, rofi)
 
 **Wallpaper**
 
-Wallpaper used is called "background.jpg", the theme is based around this. If youre going to use it, make sure the mode is tiling.
+Wallpaper used is called "background", the theme is based around this. If youre going to use it, make sure the mode is tiling.
 
 **All the things**:
 
