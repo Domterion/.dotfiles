@@ -218,9 +218,7 @@ hide_edge_borders both
 
 
 # autostart
-exec --no-startup-id ~/.config/i3/alternating_layouts.py
-
-exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+# exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off
 exec_always --no-startup-id feh --bg-fill ~/backgrounds/background.jpg
 # exec_always --no-startup-id feh --bg-fill ~/backgrounds/paint.jpg
@@ -229,3 +227,4 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id discord 
 exec --no-startup-id firefox
 exec --no-startup-id code
+exec --no-startup-id ~/.config/i3/alternating_layouts.py
