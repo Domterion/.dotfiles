@@ -158,8 +158,8 @@ bindsym $mod+Shift+6 move container to workspace $ws6
 for_window [class=.*] border pixel 5
 
 smart_borders on
-gaps inner 35
-gaps outer 30
+gaps inner 20
+gaps outer 20
 #gaps top 20 
 
 smart_borders no_gaps
@@ -167,6 +167,7 @@ smart_borders no_gaps
 
 # programs to workspace
 assign [class="discord"] $ws4
+assign [class="Pulseeffects"] $ws5
 assign [class="Firefox"] $ws2
 assign [class="Gnome-terminal"] $ws1
 assign [class="Code"] $ws1
@@ -224,7 +225,8 @@ exec_always --no-startup-id feh --bg-fill ~/backgrounds/background.png
 # exec_always --no-startup-id feh --bg-fill ~/backgrounds/paint.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec --no-startup-id discord 
+exec --no-startup-id pulseeffects 
+exec --no-startup-id discord
 exec --no-startup-id firefox
 exec --no-startup-id code
 exec --no-startup-id ~/.config/i3/alternating_layouts.py
