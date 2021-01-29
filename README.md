@@ -2,7 +2,7 @@
 
 bspwm on Ubuntu
 
-![desktop](./screenshot.png)
+![desktop](./desktop.png)
 
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
