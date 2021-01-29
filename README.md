@@ -1,6 +1,6 @@
 ## **.dotfiles**
 
-i3-gaps on Ubuntu
+bspwm on Ubuntu
 
 ![desktop](./screenshot.png)
 
@@ -23,7 +23,7 @@ $ git clone https://github.com/Domterion/.dotfiles
 $ cd .dotfiles
 
 # Install the desired dotfiles
-$ stow polybar (or i3, x, zsh, compton, nvim, rofi)
+$ stow polybar (or i3, x, zsh, compton, nvim, rofi, bspwm, sxhkd)
 ```
 
 ### **Details**
@@ -38,6 +38,10 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **[i3-gaps](https://github.com/Airblader/i3)** - tiling WM
 
+**[bspwm](https://github.com/baskerville/bspwm)** - tiling WM
+
+**[sxhkd](https://github.com/baskerville/sxhkd)** - hotkey daemon for bspwm
+
 **[neovim](https://github.com/neovim/neovim)** - text editor
 
 **[polybar](https://github.com/polybar/polybar)** - status bar to replace i3bar
@@ -48,10 +52,12 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **Fonts**
 
-**[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons and i3bar if used
+**[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons
 
-**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3 font and rofi
+**[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3/system font and rofi
 
 **[JetBrainsMono Regular](https://www.jetbrains.com/lp/mono/)** - polybar
+
+**[Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)** - polybar
 
 

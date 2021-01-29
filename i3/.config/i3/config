@@ -155,11 +155,11 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 
 # idk what this is but yes
-for_window [class=.*] border pixel 5
+for_window [class=.*] border pixel 0
 
 smart_borders on
-gaps inner 20
-gaps outer 20
+gaps inner 15
+gaps outer 15
 #gaps top 20 
 
 smart_borders no_gaps
@@ -221,12 +221,11 @@ hide_edge_borders both
 # autostart
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off
-exec_always --no-startup-id feh --bg-fill ~/backgrounds/background.png
+exec_always --no-startup-id feh --bg-fill ~/backgrounds/macos.jpg
 # exec_always --no-startup-id feh --bg-fill ~/backgrounds/paint.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec --no-startup-id pulseeffects 
 exec --no-startup-id discord
 exec --no-startup-id firefox
 exec --no-startup-id code
-exec --no-startup-id ~/.config/i3/alternating_layouts.py
+# exec --no-startup-id ~/.config/i3/alternating_layouts.py

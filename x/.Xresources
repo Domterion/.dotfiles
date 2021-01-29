@@ -1,1 +1,10 @@
+URxvt*scrollBar: false
+URxvt*foreground:  White
+URxvt.internalBorder:  15
+URxvt.font: xft:monospace:size=11
+
+urxvt*depth: 32
+
 Xcursor.size: 16
+
+*foreground: #000d26
