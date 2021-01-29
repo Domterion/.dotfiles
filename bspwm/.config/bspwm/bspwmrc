@@ -7,8 +7,8 @@ xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate n
 feh --bg-fill ~/backgrounds/pixel2.png &
 compton --config ~/.config/compton/compton.conf &
  
-bspc monitor DisplayPort-0 code web music games misc
-bspc monitor HDMI-A-0 discord
+bspc monitor DisplayPort-0 -d code web music games misc
+bspc monitor HDMI-A-0 -d discord
 
 bspc config border_width 2
 bspc config window_gap 12
