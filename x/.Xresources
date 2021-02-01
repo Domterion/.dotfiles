@@ -1,10 +1,66 @@
-URxvt*scrollBar: false
-URxvt*foreground:  White
-URxvt.internalBorder:  15
+!!!!!!!!!!!!!
+!! Defines !!
+!!!!!!!!!!!!!
+
+#define FOREGROUND #b8b3c7
+#define COLOR1 #5c5963
+#define COLOR2 #000000
+#define COLOR3 #b8b3c7
+#define COLOR4 #ffffff
+#define ALPHA #00000000
+
+#define CURSOR 16
+
+#define URXVT_SCROLLBAR: false
+#define URXVT_FOREGROUND: COLOR4
+#define URXVT_BORDER: 15
+
+#define BSPWM_BORDER_WIDTH: 3
+#define WINDOW_GAP: 15
+
+!!!!!!!
+!! X !!
+!!!!!!!
+
+Xcursor.size: CURSOR
+
+!!!!!!!!!!
+!! Rofi !!
+!!!!!!!!!!
+
+rofi.color-window: COLOR3,ALPHA,ALPHA
+rofi.color-normal: ALPHA,COLOR2,ALPHA,ALPHA,COLOR1
+rofi.color-active: ALPHA,ALPHA,ALPHA,ALPHA,COLOR1
+rofi.color-urgent: ALPHA,ALPHA,ALPHA,ALPHA,COLOR1
+
+!!!!!!!!!!!
+!! URxvt !!
+!!!!!!!!!!!
+
+URxvt*scrollBar: URXVT_SCROLLBAR
+URxvt*foreground: URXVT_FOREGROUND
+URxvt.internalBorder: URXVT_BORDER
 URxvt.font: xft:monospace:size=11
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
 
 urxvt*depth: 32
 
-Xcursor.size: 16
+!!!!!!!!!!!
+!! bspwm !!
+!!!!!!!!!!!
 
-*foreground: #000d26
+bspwm.border: COLOR3
+bspwm.border_width: BSPWM_BORDER_WIDTH
+bspwm.window: WINDOW_GAP
+
+!!!!!!!!!
+!! Bar !!
+!!!!!!!!!
+bar.foreground: FOREGROUND
+bar.active: COLOR1
+bar.primary: COLOR2
+bar.alpha: ALPHA
