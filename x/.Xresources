@@ -11,12 +11,12 @@
 
 #define CURSOR 16
 
-#define URXVT_SCROLLBAR: false
-#define URXVT_FOREGROUND: COLOR4
-#define URXVT_BORDER: 15
+#define URXVT_SCROLLBAR false
+#define URXVT_FOREGROUND COLOR4
+#define URXVT_BORDER 15
 
-#define BSPWM_BORDER_WIDTH: 3
-#define WINDOW_GAP: 15
+#define BSPWM_BORDER_WIDTH 3
+#define WINDOW_GAP 20
 
 !!!!!!!
 !! X !!
@@ -55,7 +55,7 @@ urxvt*depth: 32
 
 bspwm.border: COLOR3
 bspwm.border_width: BSPWM_BORDER_WIDTH
-bspwm.window: WINDOW_GAP
+bspwm.window_gap: WINDOW_GAP
 
 !!!!!!!!!
 !! Bar !!

@@ -35,7 +35,9 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 **All the things**:
 
 **[compton](https://github.com/chjj/compton)** - compositor 
-**[Picom](https://github.com/ibhagwan/picom)** - rounded corner compositor
+
+**[picom](https://github.com/ibhagwan/picom)** - rounded corner compositor
+
 **[i3-gaps](https://github.com/Airblader/i3)** - tiling WM
 
 **[bspwm](https://github.com/baskerville/bspwm)** - tiling WM
