@@ -11,6 +11,7 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
+Plug 'vbe0201/vimdiscord'
 
 syntax enable
 filetype plugin indent on
