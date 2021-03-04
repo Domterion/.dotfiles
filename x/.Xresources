@@ -2,11 +2,21 @@
 !! Defines !!
 !!!!!!!!!!!!!
 
-#define FOREGROUND #b8b3c7
-#define COLOR1 #5c5963
-#define COLOR2 #000000
-#define COLOR3 #b8b3c7
+! #2e3440 #3b4252 #434c5e #4c566a
+! #d8dee9 #e5e9f0 #eceff4
+! #8fbcbb #88c0d0 #81a1c1 #5e81ac 
+
+#define FOREGROUND #3b4252
+#define COLOR1 #4c566a
+#define COLOR2 #ffffff
+#define COLOR3 #4c566a
 #define COLOR4 #ffffff
+
+#define SHADE1 #5e81ac
+#define SHADE2 #81a1c1
+#define SHADE3 #88c0d0
+#define SHADE4 #8fbcbb
+
 #define ALPHA #00000000
 
 #define CURSOR 16
@@ -29,13 +39,47 @@ Xcursor.size: CURSOR
 !!!!!!!!!!
 
 rofi.color-window: COLOR3,ALPHA,ALPHA
-rofi.color-normal: ALPHA,COLOR2,ALPHA,ALPHA,COLOR1
+rofi.color-normal: ALPHA,COLOR2,ALPHA,ALPHA,SHADE2
 rofi.color-active: ALPHA,ALPHA,ALPHA,ALPHA,COLOR1
 rofi.color-urgent: ALPHA,ALPHA,ALPHA,ALPHA,COLOR1
 
 !!!!!!!!!!!
 !! URxvt !!
 !!!!!!!!!!!
+
+*.foreground:   #D8DEE9
+*.background:   #2E3440
+*.cursorColor:  #D8DEE9
+*fading: 0
+*fadeColor: #4C566A
+! black
+*.color0: #3B4252
+*.color8: #4C566A
+! red
+*.color1: #BF616A
+*.color9: #BF616A
+! green
+*.color2: #A3BE8C
+*.color10: #A3BE8C
+! yellow
+*.color3: #EBCB8B
+*.color11: #EBCB8B
+! blue
+*.color4: #81A1C1
+*.color12: #81A1C1
+! magenta
+*.color5: #B48EAD
+*.color13: #B48EAD
+! cyan
+*.color6: #88C0D0
+*.color14: #8FBCBB
+! white
+*.color7: #E5E9F0
+*.color15: #ECEFF4
+! others
+URxvt.colorIT: #A3BE8C
+URxvt.colorBD:  #ECEFF4
+URxvt.colorUL: #81A1C1
 
 URxvt*scrollBar: URXVT_SCROLLBAR
 URxvt*foreground: URXVT_FOREGROUND
@@ -63,4 +107,10 @@ bspwm.window_gap: WINDOW_GAP
 bar.foreground: FOREGROUND
 bar.active: COLOR1
 bar.primary: COLOR2
+bar.secondary: COLOR4
 bar.alpha: ALPHA
+
+bar.shade1: SHADE1
+bar.shade2: SHADE2
+bar.shade3: SHADE3
+bar.shade4: SHADE4

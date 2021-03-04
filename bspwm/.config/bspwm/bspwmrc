@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrdb -merge ~/.Xresources &
 xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off &
 ~/.config/polybar/launch.sh &
-feh --bg-fill ~/backgrounds/wires.jpeg &
+feh --bg-fill ~/backgrounds/caffeine.png &
 picom --config ~/.config/picom/picom.conf &
 
 active=$(xrdb -query | grep "bspwm.border" | cut -f2 | sed -r 's/#//' | head -n 1)
