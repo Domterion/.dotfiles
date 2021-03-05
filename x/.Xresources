@@ -84,7 +84,8 @@ URxvt.colorUL: #81A1C1
 URxvt*scrollBar: URXVT_SCROLLBAR
 URxvt*foreground: URXVT_FOREGROUND
 URxvt.internalBorder: URXVT_BORDER
-URxvt.font: xft:monospace:size=11
+URxvt.font: xft:MesloLGS NF:size=11
+! URxvt.font: xft:JetBrainsMonoNL-Regular:size=9
 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
