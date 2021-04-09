@@ -10,6 +10,10 @@ super + Return
 super + @space
 	rofi -show drun -config ~/.config/rofi/config.rasi
 
+# hide polybar
+super + alt + {o,p}
+	{xdo hide -N Polybar,xdo show -N Polybar}
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

@@ -34,7 +34,7 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **All the things**:
 
-**[compton](https://github.com/chjj/compton)** - compositor 
+**[compton](https://github.com/chjj/compton)** - compositor
 
 **[picom](https://github.com/ibhagwan/picom)** - rounded corner compositor
 
@@ -58,8 +58,6 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3/system font and rofi
 
-**[JetBrainsMono Regular](https://www.jetbrains.com/lp/mono/)** - polybar
+**[SauceCodePro Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro)** - system font and polybar
 
 **[Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)** - polybar
-
-

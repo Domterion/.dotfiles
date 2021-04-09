@@ -1,9 +1,10 @@
 configuration {
     lines: 12;
     bw: 1;
-    font: "System San Francisco Display 10";
     show-icons: true;
     display-window: "Window";
+    theme: "~/.config/rofi/themes/rofi";
     display-drun: "run";
     terminal: "zsh";
 }
+
