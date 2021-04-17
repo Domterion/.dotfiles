@@ -11,7 +11,6 @@ active=$(xrdb -query | grep "bspwm.border" | cut -f2 | sed -r 's/#//' | head -n 
 border_width=$(xrdb -query | grep "bspwm.border_width" | cut -f2 | sed -r 's/#//' | head -n 1)
 window_gap=$(xrdb -query | grep "bspwm.window_gap" | cut -f2 | sed -r 's/#//' | head -n 1)
 
-
 bspc monitor DisplayPort-0 -d code web music games misc
 bspc monitor HDMI-A-0 -d discord
 

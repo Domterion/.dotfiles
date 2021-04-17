@@ -4,6 +4,8 @@ bspwm on Ubuntu
 
 ![desktop](./desktop.png)
 
+Current setup: Picom, BSPWM, SXHKD, Kitty, NVim, Rofi and x.
+
 Uses [GNU Stow](https://www.gnu.org/software/stow/)
 
 ### **Usage**
@@ -23,7 +25,7 @@ $ git clone https://github.com/Domterion/.dotfiles
 $ cd .dotfiles
 
 # Install the desired dotfiles
-$ stow polybar (or i3, x, zsh, compton, nvim, rofi, bspwm, sxhkd, picom)
+$ stow polybar (or i3, x, zsh, compton, nvim, rofi, bspwm, sxhkd, picom, kitty)
 ```
 
 ### **Details**
@@ -52,12 +54,14 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **[zsh](https://github.com/zsh-users/zsh)** - shell of choice
 
+**[kitty](https://sw.kovidgoyal.net/kitty/index.html)** - terminal emulator
+
 **Fonts**
 
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons
 
 **[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3/system font and rofi
 
-**[SauceCodePro Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro)** - system font and polybar
+**[SauceCodePro Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro)** - system font, alacritty and polybar. need bold, italic and regular
 
 **[Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)** - polybar
