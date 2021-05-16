@@ -1,0 +1,16 @@
+session_name: main
+start_directory: $HOME
+
+windows:
+  - layout: main-vertical
+    window_name: main
+    options:
+      main-pane-width: 150
+    panes:
+      - shell_command:
+          - pane
+        focus: true
+      - shell_command:
+          - ls
+      - shell_command:
+          - tty-clock -c

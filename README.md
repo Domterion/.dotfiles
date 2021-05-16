@@ -25,7 +25,7 @@ $ git clone https://github.com/Domterion/.dotfiles
 $ cd .dotfiles
 
 # Install the desired dotfiles
-$ stow polybar (or i3, x, zsh, compton, nvim, rofi, bspwm, sxhkd, picom, kitty)
+$ stow polybar (or i3, x, zsh, compton, nvim, rofi, bspwm, sxhkd, picom, kitty, tmux, tmuxp)
 ```
 
 ### **Details**

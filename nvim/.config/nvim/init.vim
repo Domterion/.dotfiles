@@ -40,6 +40,7 @@ let NERDTreeShowHidden=1
 
 set scrolloff=3
 set encoding=utf-8
+set mouse=a
 set autoindent
 set smartindent
 set nowritebackup
@@ -69,6 +70,8 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 let mapleader = "\<Space>"
 
 autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * bot 10sp | term
+" autocmd BufWinEnter,WinEnter term://* startinsert
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 

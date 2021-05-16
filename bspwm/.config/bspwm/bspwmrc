@@ -30,6 +30,7 @@ bspc rule -a Chromium desktop='web' follow=on
 bspc rule -a Code desktop='code' follow=on
 bspc rule -a URxvt desktop='code' follow=on
 bspc rule -a Discord desktop='discord' follow=on
+bspc rule -a Keybase desktop='misc' follow=on
 
 bspc config normal_border_color "#$active"
 bspc config active_border_color "#$active"
