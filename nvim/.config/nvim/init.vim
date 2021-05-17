@@ -1,9 +1,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Themes
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 Plug 'arcticicestudio/nord-vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'itchyny/lightline.vim'
+Plug 'mengelbrecht/lightline-bufferline'
 
 " Language specific
 Plug 'vim-crystal/vim-crystal'
@@ -33,10 +35,29 @@ filetype plugin indent on
 let g:rustfmt_autosave = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tagbar#enabled = 0
 let g:crystal_auto_format = 1
 let g:prettier#autoformat = 1
 let g:dracula_colorterm = 0
+let g:lightline#bufferline#show_number = 1
+let g:lightline#bufferline#enable_devicons = 1
 let NERDTreeShowHidden=1
+
+let g:lightline = {
+      \ 'colorscheme': 'darcula',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'tabline': {
+      \   'left': [ ['buffers'] ]
+      \ },
+      \ 'component_expand': {
+      \   'buffers': 'lightline#bufferline#buffers'
+      \ },
+      \ 'component_type': {
+      \   'buffers': 'tabsel'
+      \ }
+      \ }
 
 set scrolloff=3
 set encoding=utf-8
@@ -48,6 +69,7 @@ set cmdheight=2
 set shortmess+=c
 set updatetime=300
 set tabstop=2
+set showtabline=2
 set shiftwidth=2
 set expandtab
 set autoindent
