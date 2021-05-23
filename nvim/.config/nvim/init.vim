@@ -73,6 +73,7 @@ set showtabline=2
 set shiftwidth=2
 set expandtab
 set autoindent
+set number
 set relativenumber
 set completeopt-=preview
 set nobackup
