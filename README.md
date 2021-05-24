@@ -56,12 +56,14 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **[kitty](https://sw.kovidgoyal.net/kitty/index.html)** - terminal emulator
 
+**[tmux](https://github.com/tmux/tmux)** - terminal multiplexer
+
 **Fonts**
 
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons
 
 **[system san francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)** - i3/system font and rofi
 
-**[SauceCodePro Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro)** - system font, alacritty and polybar. need bold, italic and regular
+**[SauceCodePro Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro)** - system font and polybar. need bold, italic and regular
 
 **[Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)** - polybar

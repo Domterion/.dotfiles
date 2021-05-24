@@ -3,7 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Themes
 " Plug 'bling/vim-airline'
 Plug 'arcticicestudio/nord-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 
@@ -44,7 +44,7 @@ let g:lightline#bufferline#enable_devicons = 1
 let NERDTreeShowHidden=1
 
 let g:lightline = {
-      \ 'colorscheme': 'darcula',
+      \ 'colorscheme': 'gruvbox',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ]
       \ },
@@ -79,6 +79,7 @@ set completeopt-=preview
 set nobackup
 set nowritebackup
 set hidden
+set termguicolors
 set nocompatible
 set t_Co=16
 
@@ -105,4 +106,4 @@ nnoremap <C-q> :Goyo<CR>
 
 call plug#end()
 
-colorscheme dracula
+colorscheme gruvbox
