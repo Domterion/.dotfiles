@@ -104,13 +104,12 @@ augroup END
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
 
-let mapleader = '\<Space>'
+nnoremap <SPACE> <Nop>
+let mapleader = ' '
 
 autocmd VimEnter * NERDTree | wincmd p
 
 nnoremap <Leader>n :NERDTreeFocus<CR>
-
-nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <C-q> :Goyo<CR>
