@@ -21,6 +21,12 @@ Plug 'ObserverOfTime/discord.nvim', {'do': ':UpdateRemotePlugins'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'ThePrimeagen/git-worktree.nvim'
+Plug 'jremmen/vim-ripgrep'
 
 " Conquer of Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -64,6 +70,8 @@ set encoding=utf-8
 set mouse=a
 set autoindent
 set smartindent
+set nohlsearch
+set nowrap 
 set nowritebackup
 set cmdheight=2
 set shortmess+=c
@@ -75,6 +83,7 @@ set expandtab
 set autoindent
 set number
 set relativenumber
+set guicursor=
 set completeopt-=preview
 set nobackup
 set nowritebackup
@@ -82,6 +91,12 @@ set hidden
 set termguicolors
 set nocompatible
 set t_Co=16
+set path+=**
+set wildmode=longest,list,full
+set wildmenu
+set wildignore+=**/.git/*
+set wildignore+=**/target/*
+set wildignore+=**/node_modules/*
 
 augroup fmt
   autocmd!
@@ -97,13 +112,23 @@ autocmd VimEnter * NERDTree | wincmd p
 " autocmd VimEnter * bot 10sp | term
 " autocmd BufWinEnter,WinEnter term://* startinsert
 
-nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <Leader>n :NERDTreeFocus<CR>
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <C-q> :Goyo<CR>
 
+nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
+
+nnoremap <Leader>ff <CMD>lua require('telescope.builtin').find_files({hidden = true })<CR>
+nnoremap <Leader>fg <CMD>lua require('telescope.builtin').live_grep()<CR>
+nnoremap <Leader>fb <CMD>lua require('telescope.builtin').buffers()<CR>
+nnoremap <Leader>fh <CMD>lua require('telescope.builtin').help_tags()<CR>
+nnoremap <Leader>vrc :lua require("nvim.telescope").search_dotfiles()<CR>
+
 call plug#end()
+
+lua require("nvim")
 
 colorscheme gruvbox

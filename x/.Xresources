@@ -20,7 +20,7 @@
 #define URXVT_FOREGROUND COLOR4
 #define URXVT_BORDER 15
 
-#define BSPWM_BORDER_WIDTH 4
+#define BSPWM_BORDER_WIDTH 2
 #define WINDOW_GAP 15
 
 !!!!!!!
@@ -82,6 +82,7 @@ bspwm.window_gap: WINDOW_GAP
 !!!!!!!!!
 !! Bar !!
 !!!!!!!!!
+
 bar.foreground: FOREGROUND
 bar.active: COLOR1
 bar.primary: COLOR2

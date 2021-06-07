@@ -58,6 +58,8 @@ Wallpaper used is called "background", the theme is based around this. If youre 
 
 **[tmux](https://github.com/tmux/tmux)** - terminal multiplexer
 
+**[ripgrep]](https://github.com/BurntSushi/ripgrep)** - used for live grep in neovim config
+
 **Fonts**
 
 **[font-awesome](https://github.com/FortAwesome/Font-Awesome)** - used for polybar icons

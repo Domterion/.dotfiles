@@ -23,7 +23,7 @@ super + Escape
 #
 
 super + shift + y 
-    flameshot gui
+    uploader.sh
 
 #
 # bspwm hotkeys
