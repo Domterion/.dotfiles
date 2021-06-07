@@ -4,7 +4,7 @@ require('telescope').setup {
         file_sorter = require('telescope.sorters').get_fzy_sorter,
         prompt_prefix = ' >',
         color_devicons = true,
-        file_ignore_patterns = {".git/*", "target/*", "node_modules/*"},
+        file_ignore_patterns = {'.git/*', 'target/*', 'node_modules/*'},
 
         file_previewer   = require('telescope.previewers').vim_buffer_cat.new,
         grep_previewer   = require('telescope.previewers').vim_buffer_vimgrep.new,
@@ -18,15 +18,15 @@ require('telescope').setup {
     }
 }
 
-require("telescope").load_extension("git_worktree")
+require('telescope').load_extension('git_worktree')
 require('telescope').load_extension('fzy_native')
 
 local M = {}
 
 M.search_dotfiles = function() 
-  require("telescope.builtin").find_files({
-    prompt_title = "> Dotfiles <",
-    cwd = "~/.dotfiles/",
+  require('telescope.builtin').find_files({
+    prompt_title = '> Dotfiles <',
+    cwd = '~/.dotfiles/',
     hidden = true
   })
 end

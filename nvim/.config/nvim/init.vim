@@ -1,7 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Themes
-" Plug 'bling/vim-airline'
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
@@ -26,7 +25,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'ThePrimeagen/git-worktree.nvim'
-Plug 'jremmen/vim-ripgrep'
 
 " Conquer of Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -106,11 +104,9 @@ augroup END
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
 
-let mapleader = "\<Space>"
+let mapleader = '\<Space>'
 
 autocmd VimEnter * NERDTree | wincmd p
-" autocmd VimEnter * bot 10sp | term
-" autocmd BufWinEnter,WinEnter term://* startinsert
 
 nnoremap <Leader>n :NERDTreeFocus<CR>
 
@@ -125,10 +121,10 @@ nnoremap <Leader>ff <CMD>lua require('telescope.builtin').find_files({hidden = t
 nnoremap <Leader>fg <CMD>lua require('telescope.builtin').live_grep()<CR>
 nnoremap <Leader>fb <CMD>lua require('telescope.builtin').buffers()<CR>
 nnoremap <Leader>fh <CMD>lua require('telescope.builtin').help_tags()<CR>
-nnoremap <Leader>vrc :lua require("nvim.telescope").search_dotfiles()<CR>
+nnoremap <Leader>vrc :lua require('nvim.telescope').search_dotfiles()<CR>
 
 call plug#end()
 
-lua require("nvim")
+lua require('nvim')
 
 colorscheme gruvbox
