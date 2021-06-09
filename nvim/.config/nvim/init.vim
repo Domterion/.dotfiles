@@ -17,8 +17,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'ObserverOfTime/discord.nvim', {'do': ':UpdateRemotePlugins'}
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -73,6 +71,7 @@ set nowrap
 set nowritebackup
 set cmdheight=2
 set shortmess+=c
+set incsearch
 set updatetime=300
 set tabstop=2
 set showtabline=2
@@ -86,6 +85,7 @@ set completeopt-=preview
 set nobackup
 set nowritebackup
 set hidden
+set noswapfile
 set termguicolors
 set nocompatible
 set t_Co=16

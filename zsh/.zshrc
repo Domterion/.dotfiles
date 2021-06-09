@@ -23,7 +23,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
 # Custom Variables
-EDITOR=nano
+EDITOR=nvim
 
 # History in cache directory:
 HISTSIZE=10000
@@ -64,3 +64,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.dotfiles/zsh/.p10k.zsh.
 [[ ! -f ~/.dotfiles/zsh/.p10k.zsh ]] || source ~/.dotfiles/zsh/.p10k.zsh
+
