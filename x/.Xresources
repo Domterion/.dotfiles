@@ -2,14 +2,10 @@
 !! Defines !!
 !!!!!!!!!!!!!
 
-! #2e3440 #3b4252 #434c5e #4c566a
-! #d8dee9 #e5e9f0 #eceff4
-! #8fbcbb #88c0d0 #81a1c1 #5e81ac 
-
-#define FOREGROUND #1d2021
-#define COLOR1 #ebdbb2
-#define COLOR2 #928374
-#define COLOR3 #282828
+#define FOREGROUND #191917
+#define COLOR1 #4b54cb
+#define COLOR2 #ffffff
+#define COLOR3 #4952ca
 #define COLOR4 #ffffff
 
 #define ALPHA #00000000
@@ -20,7 +16,7 @@
 #define URXVT_FOREGROUND COLOR4
 #define URXVT_BORDER 15
 
-#define BSPWM_BORDER_WIDTH 2
+#define BSPWM_BORDER_WIDTH 1
 #define WINDOW_GAP 15
 
 !!!!!!!
@@ -88,3 +84,7 @@ bar.active: COLOR1
 bar.primary: COLOR2
 bar.secondary: COLOR4
 bar.alpha: ALPHA
+bar.red: #fd3c03
+bar.orange: #feb54e
+bar.light_blue: #63d0e4
+bar.blue: #4952ca

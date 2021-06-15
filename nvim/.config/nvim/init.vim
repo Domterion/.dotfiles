@@ -2,9 +2,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 " Themes
 Plug 'arcticicestudio/nord-vim'
-Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
+Plug 'joshdick/onedark.vim'
 
 " Language specific
 Plug 'vim-crystal/vim-crystal'
@@ -46,7 +46,7 @@ let g:lightline#bufferline#enable_devicons = 1
 let NERDTreeShowHidden=1
 
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'one',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ]
       \ },
@@ -126,4 +126,4 @@ call plug#end()
 
 lua require('nvim')
 
-colorscheme gruvbox
+colorscheme onedark
