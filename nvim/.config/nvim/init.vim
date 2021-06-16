@@ -1,17 +1,23 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Themes
+"
+" THEMES
+" 
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 Plug 'dylanaraps/wal.vim'
 
-" Language specific
+"
+" LANGUAGE SPECIFIC
+" 
 Plug 'vim-crystal/vim-crystal'
 Plug 'rust-lang/rust.vim'
 Plug 'cakebaker/scss-syntax.vim'
 
-" Just useful, not necessary
+"
+" USEFUL
+" 
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
@@ -24,15 +30,23 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'ThePrimeagen/git-worktree.nvim'
 
-" Conquer of Completion
+"
+" CONQUER OF COMPLETION
+" 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Formatters/Prettifiers
+"
+" FORMATTERS
+" 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'sbdchd/neoformat'
 
 syntax enable
 filetype plugin indent on
+
+"
+" VARIABLES
+" 
 
 let g:rustfmt_autosave = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -109,6 +123,10 @@ let mapleader = ' '
 
 autocmd VimEnter * NERDTree | wincmd p
 
+"
+" REMAPS
+" 
+
 nnoremap <Leader>n :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
@@ -125,5 +143,9 @@ nnoremap <Leader>vrc :lua require('nvim.telescope').search_dotfiles()<CR>
 call plug#end()
 
 lua require('nvim')
+
+"
+" COLORSCHEME
+" 
 
 colorscheme wal
