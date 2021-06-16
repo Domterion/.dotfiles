@@ -5,6 +5,6 @@ configuration {
     display-window: "Window";
     theme: "~/.config/rofi/themes/rofi";
     display-drun: "run";
-    terminal: "zsh";
+    terminal: "fish";
 }
 
