@@ -6,7 +6,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
-Plug 'dylanaraps/wal.vim'
+Plug 'joshdick/onedark.vim'
 
 "
 " LANGUAGE SPECIFIC
@@ -100,7 +100,7 @@ set nobackup
 set nowritebackup
 set hidden
 set noswapfile
-" set termguicolors
+set termguicolors
 set nocompatible
 set t_Co=16
 set path+=**
@@ -148,4 +148,4 @@ lua require('nvim')
 " COLORSCHEME
 " 
 
-colorscheme wal
+colorscheme onedark

@@ -1,8 +1,8 @@
 * {
     font: "SauceCodePro Nerd Font Mono 9";
-    foreground: #f8f8f2;
-    background-color: #191917;
-    active-background: #4952ca;
+    foreground: #ffffff;
+    background-color: #282828;
+    active-background: #62aeef;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
@@ -14,7 +14,6 @@
 #window {
     background-color: @background;
     border:           1;
-    border-radius: 6;
     border-color: @bordercolor;
     padding:          5;
 }
