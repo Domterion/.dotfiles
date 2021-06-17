@@ -6,7 +6,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	urxvt
 
 # program launcher
 super + @space

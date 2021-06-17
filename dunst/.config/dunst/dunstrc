@@ -61,8 +61,8 @@
     geometry = "325x200-15+42"
 
     # Frame
-    frame_width = 1
-    frame_color = "#4952ca"
+    frame_width = 2
+    frame_color = "#00000000"
 
     # The transparency of the window. range: [0; 100]
     # This option will only work if a compositing windowmanager is present (e.g. xcompmgr, compiz, etc..)
@@ -124,7 +124,7 @@
     browser = /usr/bin/firefox -new-tab
 
     # Align icons left/right/off
-    icon_position = left
+    icon_position = off
 
     # Scale larger icons down to this size, set to 0 to disable
     max_icon_size = 40
@@ -136,17 +136,17 @@
     context = ctrl+shift+period
 
 [urgency_normal]
-    background = "#1d2021"
+    background = "#282c34"
     foreground = "#ffffff"
     timeout = 5
 
 [urgency_low]
-    background = "#1d2021"
+    background = "#282c34"
     foreground = "#ffffff"
     timeout = 5
 
 [urgency_critical]
-    background = "#1d2021"
+    background = "#282c34"
     foreground = "#ffffff"
-    frame_color = "#fd3c03"
+    frame_color = "#e06b74"
     timeout = 5
