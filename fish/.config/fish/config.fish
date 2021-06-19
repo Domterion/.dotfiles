@@ -1,10 +1,13 @@
 set EDITOR "nvim"
 set BROWSER "firefox"
 
-set fish_greeting
+function fish_greeting
+  fm6000 -r -c cyan 
+end
+
+funcsave fish_greeting
 
 alias please "sudo"
 
 bass source ~/.nvm/nvm.sh 
 
-fm6000 -r -c cyan

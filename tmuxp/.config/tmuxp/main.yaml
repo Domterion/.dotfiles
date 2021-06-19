@@ -8,10 +8,9 @@ windows:
       main-pane-width: 150
     panes:
       - shell_command:
-          - tmux set-option status off
           - clear
         focus: true
       - shell_command:
           - ls
       - shell_command:
-          - tty-clock -c
+          -

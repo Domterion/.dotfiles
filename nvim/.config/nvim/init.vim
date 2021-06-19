@@ -100,7 +100,6 @@ set nobackup
 set nowritebackup
 set hidden
 set noswapfile
-set termguicolors
 set nocompatible
 set t_Co=16
 set path+=**
@@ -109,6 +108,7 @@ set wildmenu
 set wildignore+=**/.git/*
 set wildignore+=**/target/*
 set wildignore+=**/node_modules/*
+set termguicolors
 
 augroup fmt
   autocmd!
@@ -147,5 +147,7 @@ lua require('nvim')
 "
 " COLORSCHEME
 " 
+
+" URxvt doesnt support 24 bit color so this scheme will look a bit weird
 
 colorscheme onedark

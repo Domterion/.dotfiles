@@ -9,30 +9,41 @@
 
 Xcursor.size: CURSOR
 
-
 !!!!!!!!!!!!!!!!!!!!!!!!!
 ! URXVT                 !
 !!!!!!!!!!!!!!!!!!!!!!!!!
 
-*.foreground: #ffffff
-*.background: #282c34
+! black
 *.color0: #282c33
 *.color8: #282c33
+
+! red
 *.color1: #e06b74
 *.color9: #e06b74
+
+! green 
 *.color2: #98c379
 *.color10: #98c379
+
+! yellow
 *.color3: #e5c07a
 *.color11: #e5c07a
+
+! blue 
 *.color4: #62aeef
 *.color12: #62aeef
+
+! magenta
 *.color5: #c778dd
 *.color13: #c778dd
+
+! cyan
 *.color6: #55b6c2
 *.color14: #55b6c2
+
+! white
 *.color7: #ffffff
 *.color15: #ffffff
-
 
 URxvt.font: xft:SauceCodePro Nerd Font Mono:size=10
 
@@ -40,5 +51,7 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.keysym.Control-Meta-c: builtin-string:
 URxvt.keysym.Control-Meta-v: builtin-string:
+
+URxvt.termName: rxvt-unicode-256color
 
 URxvt.scrollBar: false
