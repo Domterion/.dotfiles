@@ -9,5 +9,5 @@ funcsave fish_greeting
 
 alias please "sudo"
 
-bass source ~/.nvm/nvm.sh 
+ bass source ~/.nvm/nvm.sh 
 

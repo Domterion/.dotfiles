@@ -39,7 +39,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background, but no title bar buttons
-  decorations: none
+  decorations: full
 
   # When true, alacritty starts maximized.
   # startup_mode: Maximized
@@ -152,11 +152,10 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
-# Colors (Solarized dark)
 colors:
   # Default colors
   primary:
-    background: "#282c34"
+    background: "#222222"
     foreground: "#ffffff"
 
   # Colors the cursor will use if `custom_cursor_colors` is true
@@ -166,25 +165,25 @@ colors:
 
   # Normal colors
   normal:
-    black: "#282c33"
-    red: "#e06b74"
-    green: "#98c379"
-    yellow: "#e5c07a"
-    blue: "#62aeef"
-    magenta: "#c778dd"
-    cyan: "#55b6c2"
-    white: "#ffffff"
+    black: "#1d2021"
+    red: "#fb4934"
+    green: "#b8bb26"
+    yellow: "#fabd2f"
+    blue: "#83a598"
+    magenta: "#d3869b"
+    cyan: "#8ec07c"
+    white: "#d5c4a1"
 
   # Bright colors
   bright:
-    black: "#282c33"
-    red: "#e06b74"
-    green: "#98c379"
-    yellow: "#e5c07a"
-    blue: "#62aeef"
-    magenta: "#c778dd"
-    cyan: "#55b6c2"
-    white: "#ffffff"
+    black: "#665c54"
+    red: "#fb4934"
+    green: "#b8bb26"
+    yellow: "#fabd2f"
+    blue: "#83a598"
+    magenta: "#d3869b"
+    cyan: "#8ec07c"
+    white: "#fbf1c7"
 
 # Background opacity
 #

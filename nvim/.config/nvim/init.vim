@@ -7,6 +7,8 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 Plug 'joshdick/onedark.vim'
+Plug 'chriskempson/base16-vim'
+Plug 'daviesjamie/vim-base16-lightline'
 
 "
 " LANGUAGE SPECIFIC
@@ -58,9 +60,11 @@ let g:dracula_colorterm = 0
 let g:lightline#bufferline#show_number = 1
 let g:lightline#bufferline#enable_devicons = 1
 let NERDTreeShowHidden=1
+let base16colorspace=256
+let g:discord_activate_on_enter=0
 
 let g:lightline = {
-      \ 'colorscheme': 'one',
+      \ 'colorscheme': 'base16',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ]
       \ },
@@ -94,14 +98,13 @@ set expandtab
 set autoindent
 set number
 set relativenumber
-set guicursor=
 set completeopt-=preview
 set nobackup
 set nowritebackup
 set hidden
 set noswapfile
 set nocompatible
-set t_Co=16
+set t_Co=256
 set path+=**
 set wildmode=longest,list,full
 set wildmenu
@@ -150,4 +153,4 @@ lua require('nvim')
 
 " URxvt doesnt support 24 bit color so this scheme will look a bit weird
 
-colorscheme onedark
+colorscheme base16-default-dark
