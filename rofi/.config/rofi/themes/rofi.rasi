@@ -1,7 +1,7 @@
 * {
     font: "SauceCodePro Nerd Font Mono 9";
     foreground: #ffffff;
-    background-color: #282828;
+    background-color: #181818;
     active-background: #62aeef;
     urgent-background: #ff5555;
     selected-background: @active-background;

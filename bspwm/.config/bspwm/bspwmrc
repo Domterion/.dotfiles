@@ -15,10 +15,10 @@ export SXHKD_SHELL='/bin/dash'
 # Exec from ` /usr/lib/x86_64-linux-gnu/notify-osd` to `/usr/bin/dunst`
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1080x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DVI-D-0 --off &
+xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output DisplayPort-1 --off --output DisplayPort-2 --off --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DVI-D-0 --off &
 ~/.config/polybar/launch.sh &
 killall -q dunst && dunst --config ~/.config/dunst/dunstrc &
-feh --bg-fill ~/backgrounds/ghibli2.jpg &
+feh --bg-fill ~/backgrounds/anime_crossover.png &
 picom --config ~/.config/picom/picom.conf &
 wmname LG3D &
 
